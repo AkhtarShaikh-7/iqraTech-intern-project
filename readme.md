@@ -8,6 +8,13 @@ This project contains a centralized dashboard where all internship assignments c
 
 The dashboard serves as the main entry point and provides easy navigation to all projects.
 
+## 🔗 Live Demo
+
+🌐 Live Website: https://your-project-name.onrender.com
+
+Repository: https://iqratech-assignment.onrender.com
+
+
 ---
 
 ## 🛠️ Technologies Used
