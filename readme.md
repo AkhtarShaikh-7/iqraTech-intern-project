@@ -10,9 +10,9 @@ The dashboard serves as the main entry point and provides easy navigation to all
 
 ## 🔗 Live Demo
 
-🌐 Live Website: https://your-project-name.onrender.com
+🌐 Live Website:https://iqratech-assignment.onrender.com
 
-Repository: https://iqratech-assignment.onrender.com
+Repository:https://github.com/AkhtarShaikh-7/iqraTech-intern-project.git
 
 
 ---
