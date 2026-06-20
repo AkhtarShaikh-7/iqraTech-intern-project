@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Employee Management System</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top-bar">
+
+<a href="../../index.html"
+class="back-btn">
+
+← Dashboard
+
+</a>
+
+<span>
+Internship Project #6
+</span>
+
+</div>
+
+<h1>Employee Database Management</h1>
+
+<form id="employeeForm">
+
+<input
+type="text"
+id="name"
+placeholder="Employee Name"
+required>
+
+<input
+type="number"
+id="age"
+placeholder="Age"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Email"
+required>
+
+<input
+type="text"
+id="department"
+placeholder="Department"
+required>
+
+<button type="submit">
+Save Employee
+</button>
+
+</form>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search by Name, Age, Email or Department">
+
+</div>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+<th>Age</th>
+<th>Email</th>
+<th>Department</th>
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="employeeTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

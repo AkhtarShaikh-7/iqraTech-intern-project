@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Expense Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="top-bar">
+
+<a href="../../index.html"
+class="back-btn">
+
+← Dashboard
+
+</a>
+
+<span>
+Internship Project #8
+</span>
+
+</div>
+
+<h1>Expense Tracker</h1>
+
+<form id="expenseForm">
+
+<input
+type="number"
+id="amount"
+placeholder="Enter Amount"
+required>
+
+<select id="category" required>
+
+<option value="">
+Select Category
+</option>
+
+<option value="Food">
+Food
+</option>
+
+<option value="Travel">
+Travel
+</option>
+
+<option value="Shopping">
+Shopping
+</option>
+
+<option value="Bills">
+Bills
+</option>
+
+<option value="Other">
+Other
+</option>
+
+</select>
+
+<input
+type="text"
+id="description"
+placeholder="Expense Description"
+required>
+
+<button type="submit">
+Save Expense
+</button>
+
+</form>
+
+<div class="summary">
+
+<h2>
+Total Expenses:
+<span id="totalExpense">
+₹0
+</span>
+</h2>
+
+</div>
+
+<div id="expenseList">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

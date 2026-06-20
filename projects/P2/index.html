@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Capture System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="top-bar">
+            <a href="../../index.html" class="back-btn">
+                ← Dashboard
+            </a>
+
+            <span>Internship Project #2</span>
+        </div>
+
+        <h1>Customer Capture System</h1>
+
+        <form id="customerForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Customer Name"
+                required>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required>
+
+            <select id="customerType" required>
+                <option value="">Select Customer Type</option>
+                <option value="new">New Customer</option>
+                <option value="existing">Existing Customer</option>
+            </select>
+
+            <div id="amountContainer">
+                <input
+                    type="number"
+                    id="amount"
+                    placeholder="Amount">
+            </div>
+
+            <button type="submit">
+                Add Customer
+            </button>
+
+        </form>
+
+        <div class="sections">
+
+            <div class="section">
+
+                <h2>🆕 New Customers</h2>
+
+                <div id="newCustomers"></div>
+
+            </div>
+
+            <div class="section">
+
+                <h2>✅ Existing Customers</h2>
+
+                <div id="existingCustomers"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

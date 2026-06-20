@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Generator & Verification</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <a href="/index.html" class="back-btn">
+            ← Back to Dashboard
+        </a>
+
+        <h1>OTP Verification System</h1>
+
+        <div class="timer-section">
+            <h2 id="timer">02:00</h2>
+        </div>
+
+        <input type="text" id="otpInput" placeholder="Enter OTP">
+
+        <div class="buttons">
+
+            <button id="generateBtn">
+                Generate OTP
+            </button>
+
+            <button id="verifyBtn">
+                Verify OTP
+            </button>
+
+        </div>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
