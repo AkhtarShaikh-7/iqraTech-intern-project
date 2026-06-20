@@ -108,3 +108,8 @@ footer{
     font-weight:600;
     margin-bottom:12px;
 }
+
+.developer-name{
+  font-size: large;
+  font-weight: 700;
+}
